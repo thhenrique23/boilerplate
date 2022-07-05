@@ -1,3 +1,11 @@
 {
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": "If true, shows test coverage when Go: Test Function at cursor command is run."
+      }
+    ]
+  ],
   "presets": ["next/babel", "@babel/preset-typescript"]
 }
